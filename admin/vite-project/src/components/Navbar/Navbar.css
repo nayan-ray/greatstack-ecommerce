@@ -1,0 +1,46 @@
+.nav-profite {
+    width: 50px;
+    border-radius: 50%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-shadow: 0 1px 3px -2px #000;
+    background: #fff;
+}
+.title{
+    line-height: 12px;
+}
+.title h1{
+    font-size: 25px;
+}
+.nabLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.navProfile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+@media(max-width:800px){
+    .navbar{
+        padding: 15px 30px;
+    }
+}
+@media(max-width:500px){
+    .navbar{
+        padding: 5px 10px;
+    }
+    .nabLogo{
+        transform: scale(0.8);
+    }
+    .navProfile{
+        transform: scale(0.8);
+    }
+}
